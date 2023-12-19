@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+h1, h3 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+p, li {
+    line-height: 150%;
+    font-size: smaller;
+    margin: 0;
+}
+
+p.cover {
+    margin-top: 10px;
+}
+
+p.short-description {
+    font-size: larger;
+    text-align: left;
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    zoom: 1.25;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(0, 128, 255);
+    border-bottom: 1px solid rgba(0, 128, 255, 0.25);
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+ul.skills {
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+ul.skills li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+}
+
+p.org-meta {
+    margin-bottom: 10px;
+}
+
+.main .meta {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.main p {
+    text-align: justify;
+}
+
+.description {
+    margin-bottom: 5px;
+}
+
+.column {
+    margin-right: 30px;
+    width: 200px;
+}
+
+.sidebar section {
+    margin-bottom: 50px;
+}
+
+.sidebar .name {
+    font-weight: 700;
+}
+
+.sidebar .meta {
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar .description {
+    margin-bottom: 20px;
+}
